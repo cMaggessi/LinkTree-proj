@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(29, 0, 82);
+  font-family: Poppins;
+  color: aliceblue;
+  height: 100vh;
+  position: relative;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1520454974749-611b7248ffdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-size: cover;
+  -webkit-text-stroke: 0.00543px black;
+}
+
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+
+  height: auto;
+  max-width: 200px;
+  box-shadow: 0px 0px 33px 12px rgba(0, 0, 0, 0.25);
+}
+.profile-name {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+.profile-desc {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+  overflow: hidden;
+}
+
+h1 {
+  text-shadow: 0px 0px 17px rgba(150, 150, 150, 1);
+  transition: 0.2s;
+  padding-top: 34px;
+  transform: translateX(-100%);
+  animation: anim1 forwards;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 450ms;
+  margin: auto;
+}
+h1:hover {
+  color: darkorchid;
+}
+
+h2 {
+  animation: forwards;
+  font-size: 54px;
+  transform: translateX(-100%);
+  animation: anim1 forwards;
+  animation-duration: 300ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 450ms;
+  padding-bottom: 34px;
+  text-shadow: 0px 0px 17px rgba(150, 150, 150, 1);
+  transition: 0.2s;
+  margin: auto;
+}
+h2:hover {
+  color: darkorchid;
+}
+
+@keyframes anim1 {
+  to {
+    transform: translateX(0%);
+  }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scale: (2);
+  font-size: 50px;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(131, 0, 192);
+  text-decoration: none;
+  color: white;
+  gap: 20px;
+  min-width: auto;
+  width: 700px;
+  max-width: 700px;
+  height: 7.6vh;
+  max-height: 76vh;
+  margin-bottom: 35px;
+  transition: transform 0.15s;
+  animation-timing-function: ease-in-out;
+  font-size: 40px;
+  border-radius: 50px;
+  transition-duration: 200ms;
+  text-align: center;
+}
+
+a:hover {
+  transform: scale(1.2);
+  background: rgb(75, 18, 180);
+  color: black;
+}
+
+.fa-brands {
+  position: absolute;
+  padding-right: 295px;
+}
+
+p {
+  text-align: center;
+  padding-left: 100px;
+}
