@@ -1,6 +1,6 @@
 # LinkTree-proj
 
-Site parecido com o https://linktr.ee feito com HTML e CSS puro. :)
+Site parecido com o [LinkTree](https://linktr.ee) só usando HTML e CSS puro. :)
 
 
 
